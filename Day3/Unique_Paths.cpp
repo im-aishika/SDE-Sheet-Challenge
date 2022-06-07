@@ -55,7 +55,7 @@ int uniquePaths(int m, int n) {
 
 #include <bits/stdc++.h> 
 int uniquePaths(int m, int n) {
-	//the given grid has m rows and n columns. So to reach the destination
+    //the given grid has m rows and n columns. So to reach the destination
     //from start (0,0) to destination (m-1, n-1); we have to take (m-1)
     //down turns and (n-1) right turns.
     
