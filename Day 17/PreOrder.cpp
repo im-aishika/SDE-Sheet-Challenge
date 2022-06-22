@@ -5,8 +5,8 @@ private:
             return;
         }
         
-        func(node->left, ans);
         ans.push_back(node->val);
+        func(node->left, ans);        
         func(node->right, ans);
     }
 public:
